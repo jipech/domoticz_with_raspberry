@@ -1,17 +1,17 @@
 commandArray = {}
 
 DomDevice = 'rpi2led'
-IP = '192.168.1.229'
+IP = 'a.b.c.d'
 Port = '8888'
 runcommand=""
 
 if devicechanged[DomDevice] then
    if(devicechanged[DomDevice]=='Off') then
      print ("Turning off " .. DomDevice)
-     runcommand = "echo 0  | nc 192.168.1.229 8888"
+     runcommand = "echo 0  | nc "+IP+" 8888"
    else
      print ("Turning on " .. DomDevice)
-     runcommand = "echo 1  | nc 192.168.1.229 8888 "
+     runcommand = "echo 1  | nc "+IP+" 8888 "
    end
    print (runcommand)
    os.execute(runcommand)
