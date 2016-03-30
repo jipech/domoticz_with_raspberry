@@ -7,3 +7,5 @@
 <p>The answer is temerature in hexa number system in Celsius</p>
 <p>Upload the file temperature.py to your linux computer. Place it e.g to <code>/usr/local/bin</code> and set it as executable <code>chmod a+x /usr/local/bin/temperature.py</code>. Edit it and change IP address of the server, port and idx of sensor. If it is needed change address of this sensor (value 0x48). Run this script. If you need it start on boot, you can change crontab. Run <code>crontab -e</code> and add there line:</p>
 <p><code>@reboot /usr/local/bin/led2pi.py</code></p>
+<h2>Finale</h2>
+<p>Return to Domoticz now. After a while you could see the temperature in this sensor</p>
