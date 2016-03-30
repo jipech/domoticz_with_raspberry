@@ -8,4 +8,5 @@
 <p><code>echo 0  | nc ip.switch 8888</code></p>
 <h2>Preparing Domoticz server</h2>
 <p>Create virtual switch for the dummy device. Edit it and then change type to <i>On/Off</i> and icon to the <i>Lamp switch</i>. Change the name e.g. to <i>rpi2led</i> and save. Now you upload the file <code>script_device_rpi2led.lua</code> (the name rpi2led must coresponding to the name of your switch) to the domoticz server. Place it into folder <code>domoticz/script/lua</code>.</p>
+<p>That is all</p>
 
