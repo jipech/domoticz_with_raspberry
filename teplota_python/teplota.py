@@ -7,9 +7,9 @@ bus = smbus.SMBus(1)
 
 import urllib2
 
-server="http://192.168.1.230"
+server="http://ip.server"
 port="8080"
-idx="6"
+idx="ID"
 
 def temperature():
    address = 0x48
