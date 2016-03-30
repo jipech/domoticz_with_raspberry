@@ -9,7 +9,7 @@ from socket import *
 serverSocket = socket(AF_INET, SOCK_STREAM)
 #Prepare a sever socket
 serverPort = 8888
-serverName = '192.168.1.229'
+serverName = 'a.b.c.d'
 serverSocket.bind((serverName,serverPort))
 serverSocket.listen(1)
 
